@@ -14,7 +14,7 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url("../manicipality-site_assets/common/background_img/background-img1.jpg");
+  background-image: url("https://raw.githubusercontent.com/coto-no/nakura-city-official-site/ef9d2a2a57b9fc4a3b0928cdb9ec1883cab10815/background-img.jpg");
 }
 input, textarea, select {
   font-family: 'TsukuARdGothic-Bold', 'TsukuBRdGothic-Bold', YuGothic, 'Yu Gothic', sans-serif;
