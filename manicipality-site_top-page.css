@@ -14,7 +14,7 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url("https://github.com/coto-no/nakura-city-official-site/blob/main/background-img.jpg?raw=true");
+  background-image: url("../manicipality-site_assets/common/background_img/background-img.jpg");
 }
 input, textarea, select {
   font-family: 'TsukuARdGothic-Bold', 'TsukuBRdGothic-Bold', YuGothic, 'Yu Gothic', sans-serif;
@@ -66,7 +66,7 @@ input, textarea, select {
     padding-top: 5px;
     margin-right: 3px;
     color: #FFF;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .header__warning-info a {
     display: none;
@@ -125,6 +125,18 @@ input, textarea, select {
 @media(max-width: 414px) {
   .section-purpose-content-wrapper {
     padding: 0 30px 30px 30px;
+  }
+  .section-purpose-content-wrapper ul {
+    gap: 10px;
+  }
+  .section-purpose-content-wrapper li a img {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .section-purpose-content-wrapper .section-purpose__button__citizen {
+    width: 105%;
+    height: 105%;
   }
 }
 .section-searchbox-content-wrapper {
@@ -280,7 +292,7 @@ img {
     padding-top: 5px;
   }
   .wrap p a {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
   .section-searchbox__keyword-icon {
     width: 15%;
@@ -288,12 +300,10 @@ img {
   }
   .section-searchbox__keyword__attention p {
     margin-top: 3px;
-    font-size: 1.4rem;
-  }
-  .section-searchbox__keyword ul li {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
   .section-searchbox__keyword ul li a {
+    font-size: 1.4rem;
     padding: 3px 10px;
   }
 }
@@ -352,7 +362,7 @@ img {
   }
   .section-news-content-wrapper p span {
     padding: 3px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-left: 5px;
   }
   .section-news-content-wrapper p a {
@@ -440,7 +450,7 @@ img {
   .section-instagram__hushtag p {
     margin: 10px 0;
     padding: 10px 25px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .section-instagram__post {
     display: inline-block;
@@ -593,7 +603,7 @@ img {
     margin: 0 50px 50px 50px;
   }
 }
-@media(max-width: 414px) {
+@media(max-width: 420px) {
   .footer-content-wrapper {
     padding-bottom: 70px;
   }
@@ -634,8 +644,11 @@ img {
     margin-top: 0;
     width: 40%;
   }
+  .footer__info ul {
+    margin-top: 8px;
+  }
   .footer__info ul li {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .footer__inquiry {
     margin: 0 30px 30px 30px;
@@ -649,7 +662,7 @@ img {
     padding: 10px;
   }
   .footer__sns p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .footer__sns__icon a img {
     margin-top: 8px;
