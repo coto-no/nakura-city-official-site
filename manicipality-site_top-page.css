@@ -47,6 +47,11 @@ input, textarea, select {
   padding: 15px;
   background: #A73C40;
 }
+@media(max-width: 830px) {
+  .header-content-wrapper {
+    padding: 0 50px;
+  }
+}
 @media(max-width: 414px) {
   .header-content-wrapper {
     padding: 0 30px;
@@ -80,6 +85,11 @@ input, textarea, select {
   width: 100%;
   background-repeat: no-repeat;
 }
+@media(max-width: 830px) {
+  .top-wrapper {
+    padding: 30px 50px 50px 50px;
+  }
+}
 @media(max-width: 414px) {
   .top-wrapper {
     padding: 20px 30px 30px 30px;
@@ -107,9 +117,13 @@ input, textarea, select {
   width: 95%;
   height: 95%;
 }
+@media(max-width: 830px) {
+  .section-purpose-content-wrapper {
+    padding: 0 50px 50px 50px;
+  }
+}
 @media(max-width: 414px) {
   .section-purpose-content-wrapper {
-    max-width: 1440px;
     padding: 0 30px 30px 30px;
   }
 }
@@ -230,6 +244,15 @@ img {
     margin-top: -3px;
   }
 }
+@media(max-width: 830px) {
+  .section-searchbox-content-wrapper {
+    padding: 0 50px 50px 50px;
+  }
+  .wrap {
+    width: 80%;
+    padding: 50px;
+  }
+}
 @media(max-width: 414px) {
   .section-searchbox-content-wrapper {
     padding: 0 30px 30px 30px;
@@ -306,6 +329,14 @@ img {
   padding-left: 20px;
   color: #333;
 }
+@media(max-width: 830px) {
+  .section-news-content-wrapper {
+    padding: 0 50px 50px 50px;
+  }
+  .section-news-content-wrapper p {
+    padding: 50px 30px 30px 30px;
+  }
+}
 @media(max-width: 414px) {
   .section-news-content-wrapper {
     padding: 0 30px 30px 30px;
@@ -368,7 +399,7 @@ img {
   padding-top: 15px;
 }
 .section-instagram__post__item {
-  width: 32%;
+  width: 30%;
   padding-bottom: 20px;
 }
 .section-instagram__postmethod {
@@ -383,6 +414,15 @@ img {
 .section-instagram__postmethod a {
   color: #333;
   font-size: 1.4rem;
+}
+@media(max-width: 830px) {
+  .section-instagram-content-wrapper {
+    padding: 0 50px 50px 50px;
+  }
+  .section-instagram__post__item {
+    width: 30%;
+    padding-bottom: 20px;
+  }
 }
 @media(max-width: 414px) {
   .section-instagram-content-wrapper {
@@ -531,6 +571,27 @@ img {
   padding-left: 15px;
   width: 35px;
   height: 35px;
+}
+@media(max-width: 830px) {
+  .footer__return {
+    padding: 0 50px 50px 50px;
+  }
+  .footer__sitemap ul {
+    font-size: 1.4rem;
+    gap: 10px;
+  }
+  .footer__info {
+    padding: 30px 50px 50px 50px;
+  }
+  .footer__info ul {
+    margin-top: -30px;
+  }
+  .footer__inquiry {
+    margin: 0 50px 50px 50px;
+  }
+  .footer__sns {
+    margin: 0 50px 50px 50px;
+  }
 }
 @media(max-width: 414px) {
   .footer-content-wrapper {
