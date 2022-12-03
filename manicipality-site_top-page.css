@@ -14,7 +14,7 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url("https://raw.githubusercontent.com/coto-no/nakura-city-official-site/ef9d2a2a57b9fc4a3b0928cdb9ec1883cab10815/background-img.jpg");
+  background-image: url("https://github.com/coto-no/nakura-city-official-site/blob/main/background-img.jpg?raw=true");
 }
 input, textarea, select {
   font-family: 'TsukuARdGothic-Bold', 'TsukuBRdGothic-Bold', YuGothic, 'Yu Gothic', sans-serif;
@@ -25,8 +25,8 @@ input, textarea, select {
   text-align: left;
   padding: 0 125px;
 }
-.header-logo a img {
-  width: 100px;
+.header-content-wrapper .header__logo {
+  width: 100%;
 }
 .header__warning-info {
   font-family: YuGothic, 'Yu Gothic', sans-serif;
@@ -47,15 +47,47 @@ input, textarea, select {
   padding: 15px;
   background: #A73C40;
 }
+@media(max-width: 414px) {
+  .header-content-wrapper {
+    padding: 0 30px;
+  }
+  .header-content-wrapper .header__logo {
+    width: 50%;
+  }
+  .header__warning-info {
+    padding-top: 20px;
+  }
+  .header__warning-info p {
+    padding-top: 5px;
+    margin-right: 3px;
+    color: #FFF;
+    font-size: 1.4rem;
+  }
+  .header__warning-info a {
+    display: none;
+  }
+  .header__warning-info span {
+    padding: 5px 10px;
+  }
+}
 .top-wrapper {
   max-width: 1440px;
   text-align: center;
-  padding: 0 125px 70px 125px;
+  padding: 30px 125px 30px 125px;
   margin-top: -20px;
 }
 .section-top__image {
   width: 100%;
   background-repeat: no-repeat;
+}
+@media(max-width: 414px) {
+  .top-wrapper {
+    padding: 20px 30px 30px 30px;
+  }
+  .section-top__image {
+    width: 100%;
+    background-repeat: no-repeat;
+  }
 }
 .section-purpose-content-wrapper {
   max-width: 1440px;
@@ -74,6 +106,12 @@ input, textarea, select {
 .section-purpose-content-wrapper .section-purpose__button__citizen {
   width: 95%;
   height: 95%;
+}
+@media(max-width: 414px) {
+  .section-purpose-content-wrapper {
+    max-width: 1440px;
+    padding: 0 30px 30px 30px;
+  }
 }
 .section-searchbox-content-wrapper {
   max-width: 1440px;
@@ -122,9 +160,10 @@ img {
 }
 @media screen and (max-width: 540px) {
   .Box-SearchInput {
-    height: 45px;
-    padding-right: 45px;
-    font-size: 12px;
+    width: 100%;
+    height: 30px;
+    padding-right: 20px;
+    font-size: 10px;
   }
 }
 .Box-Btn {
@@ -142,9 +181,9 @@ img {
 }
 @media screen and (max-width: 540px) {
   .Box-Btn {
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
   }
 }
 .Box-Btn-Icon {
@@ -181,15 +220,59 @@ img {
   text-decoration: none;
   color: #fff;
   background: #769175;
-  padding: 6px 15px ;
+  padding: 6px 15px;
   border: 0.5px solid;
   border-color: #707070;
   border-radius: 20px;
 }
 @media(max-width: 1300px) {
   .section-searchbox__keyword__attention p {
-  margin-top: -3px;
+    margin-top: -3px;
+  }
 }
+@media(max-width: 414px) {
+  .section-searchbox-content-wrapper {
+    padding: 0 30px 30px 30px;
+  }
+  .section-searchbox-content-wrapper h2 {
+    font-size: 2.0rem;
+    padding-bottom: 5px;
+  }
+  .wrap {
+    max-width: 354px;
+    width: 90%;
+    padding: 15px;
+  }
+  .Box-Btn {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+ 
+  .Box-Btn-Icon {
+    width: 15px;
+    height: 15px;
+  }
+  .wrap p {
+    padding-top: 5px;
+  }
+  .wrap p a {
+    font-size: 1.2rem;
+  }
+  .section-searchbox__keyword-icon {
+    width: 15%;
+    height: 15%;
+  }
+  .section-searchbox__keyword__attention p {
+    margin-top: 3px;
+    font-size: 1.4rem;
+  }
+  .section-searchbox__keyword ul li {
+    font-size: 1.2rem;
+  }
+  .section-searchbox__keyword ul li a {
+    padding: 3px 10px;
+  }
 }
 .section-news-content-wrapper {
   max-width: 1440px;
@@ -222,6 +305,29 @@ img {
 .section-news-content-wrapper p a {
   padding-left: 20px;
   color: #333;
+}
+@media(max-width: 414px) {
+  .section-news-content-wrapper {
+    padding: 0 30px 30px 30px;
+  }
+  .section-news-content-wrapper h2 {
+    font-size: 2.0rem;
+    padding: 3px 20px;
+    border-radius: 15px;
+  }
+  .section-news-content-wrapper p {
+    padding: 30px 15px 15px 15px;
+    font-size: 1.6rem;
+  }
+  .section-news-content-wrapper p span {
+    padding: 3px;
+    font-size: 1.2rem;
+    margin-left: 5px;
+  }
+  .section-news-content-wrapper p a {
+    display: block;
+    padding-left: 0;
+  }
 }
 .section-instagram-content-wrapper {
   max-width: 1440px;
@@ -257,15 +363,15 @@ img {
 .section-instagram__post {
   display: flex;
   justify-content: space-between;
-	flex-wrap: wrap;
-  gap:17px;
+  flex-wrap: wrap;
+  gap: 17px;
   padding-top: 15px;
 }
 .section-instagram__post__item {
   width: 32%;
   padding-bottom: 20px;
 }
-.section-instagram__postmethod  {
+.section-instagram__postmethod {
   display: inline-block;
   margin-top: 20px;
   background: #FFF;
@@ -277,6 +383,37 @@ img {
 .section-instagram__postmethod a {
   color: #333;
   font-size: 1.4rem;
+}
+@media(max-width: 414px) {
+  .section-instagram-content-wrapper {
+    max-width: 1440px;
+    padding: 0 30px 30px 30px;
+  }
+  .section-instagram__hushtag img {
+    width: 30%;
+    padding-bottom: 5px;
+  }
+  .section-instagram__hushtag h2 {
+    font-size: 2.0rem;
+    padding: 10px 25px;
+  }
+  .section-instagram__hushtag p {
+    margin: 10px 0;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+  }
+  .section-instagram__post {
+    display: inline-block;
+  }
+  .section-instagram__post__item {
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .section-instagram__postmethod {
+    margin-top: 10px;
+    padding: 3px 25px;
+  }
 }
 .footer-content-wrapper {
   max-width: 1440px;
@@ -331,7 +468,7 @@ img {
   display: flex;
 }
 .footer__info__city-logo {
-  margin-top: -50px; 
+  margin-top: -50px;
   width: 20%;
   height: 20%;
 }
@@ -353,7 +490,7 @@ img {
 }
 @media(max-width: 1180px) {
   .footer__info__city-logo {
-    margin-top: -30px; 
+    margin-top: -30px;
   }
 }
 .footer__inquiry {
@@ -394,4 +531,69 @@ img {
   padding-left: 15px;
   width: 35px;
   height: 35px;
+}
+@media(max-width: 414px) {
+  .footer-content-wrapper {
+    padding-bottom: 70px;
+  }
+  .footer__return {
+    padding: 0 30px 30px 30px;
+  }
+  .footer__return__before {
+    display: flex;
+    padding-right: 15px;
+  }
+  .footer__return__before img {
+    width: 15px;
+    height: 15px;
+    padding: 8px 5px 0 0;
+  }
+  .footer__return__before a {
+    font-size: 1.4rem;
+  }
+  .footer__return__top img {
+    width: 15px;
+    height: 15px;
+    padding: 8px 5px 0 0;
+  }
+  .footer__return__top a {
+    font-size: 1.4rem;
+  }
+  .footer__sitemap {
+    padding: 15px 500px;
+  }
+  .footer__sitemap ul {
+    display: none;
+  }
+  .footer__info {
+    padding: 15px 30px 30px 30px;
+    display: flex;
+  }
+  .footer__info__city-logo {
+    margin-top: 0;
+    width: 40%;
+  }
+  .footer__info ul li {
+    font-size: 1.4rem;
+  }
+  .footer__inquiry {
+    margin: 0 30px 30px 30px;
+    padding: 10px;
+  }
+  .footer__inquiry__icon {
+    width: 10%;
+  }
+  .footer__sns {
+    margin: 0 30px 30px 30px;
+    padding: 10px;
+  }
+  .footer__sns p {
+    font-size: 1.4rem;
+  }
+  .footer__sns__icon a img {
+    margin-top: 8px;
+    padding-left: 10px;
+    width: 20px;
+    height: 20px
+  }
 }
