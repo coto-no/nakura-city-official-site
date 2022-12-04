@@ -49,11 +49,13 @@ input, textarea, select {
 }
 @media(max-width: 830px) {
   .header-content-wrapper {
+    max-width: 830px;
     padding: 0 50px;
   }
 }
-@media(max-width: 414px) {
+@media(max-width: 420px) {
   .header-content-wrapper {
+    max-width: 420px;
     padding: 0 30px;
   }
   .header-content-wrapper .header__logo {
@@ -88,10 +90,12 @@ input, textarea, select {
 @media(max-width: 830px) {
   .top-wrapper {
     padding: 30px 50px 50px 50px;
+    max-width: 830px;
   }
 }
-@media(max-width: 414px) {
+@media(max-width: 420px) {
   .top-wrapper {
+    max-width: 420px;
     padding: 20px 30px 30px 30px;
   }
   .section-top__image {
@@ -120,10 +124,12 @@ input, textarea, select {
 @media(max-width: 830px) {
   .section-purpose-content-wrapper {
     padding: 0 50px 50px 50px;
+    max-width: 830px;
   }
 }
-@media(max-width: 414px) {
+@media(max-width: 420px) {
   .section-purpose-content-wrapper {
+    max-width: 420px;
     padding: 0 30px 30px 30px;
   }
   .section-purpose-content-wrapper ul {
@@ -258,6 +264,7 @@ img {
 }
 @media(max-width: 830px) {
   .section-searchbox-content-wrapper {
+    max-width: 830px;
     padding: 0 50px 50px 50px;
   }
   .wrap {
@@ -265,8 +272,9 @@ img {
     padding: 50px;
   }
 }
-@media(max-width: 414px) {
+@media(max-width: 420px) {
   .section-searchbox-content-wrapper {
+    max-width: 420px;
     padding: 0 30px 30px 30px;
   }
   .section-searchbox-content-wrapper h2 {
@@ -341,14 +349,16 @@ img {
 }
 @media(max-width: 830px) {
   .section-news-content-wrapper {
+    max-width: 830px;
     padding: 0 50px 50px 50px;
   }
   .section-news-content-wrapper p {
     padding: 50px 30px 30px 30px;
   }
 }
-@media(max-width: 414px) {
+@media(max-width: 420px) {
   .section-news-content-wrapper {
+    max-width: 420px;
     padding: 0 30px 30px 30px;
   }
   .section-news-content-wrapper h2 {
@@ -418,7 +428,7 @@ img {
   background: #FFF;
   border-radius: 70px;
   padding: 3px 25px;
-  border: 0.5px solid;
+  border: 1.5px solid;
   border-color: #707070;
 }
 .section-instagram__postmethod a {
@@ -427,6 +437,7 @@ img {
 }
 @media(max-width: 830px) {
   .section-instagram-content-wrapper {
+    max-width: 830px;
     padding: 0 50px 50px 50px;
   }
   .section-instagram__post__item {
@@ -434,9 +445,9 @@ img {
     padding-bottom: 20px;
   }
 }
-@media(max-width: 414px) {
+@media(max-width: 420px) {
   .section-instagram-content-wrapper {
-    max-width: 1440px;
+    max-width: 420px;
     padding: 0 30px 30px 30px;
   }
   .section-instagram__hushtag img {
@@ -583,6 +594,9 @@ img {
   height: 35px;
 }
 @media(max-width: 830px) {
+  .footer-content-wrapper {
+    max-width: 830px;
+  }
   .footer__return {
     padding: 0 50px 50px 50px;
   }
@@ -605,6 +619,7 @@ img {
 }
 @media(max-width: 420px) {
   .footer-content-wrapper {
+    max-width: 420px;
     padding-bottom: 70px;
   }
   .footer__return {
