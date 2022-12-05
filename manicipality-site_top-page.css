@@ -648,6 +648,7 @@ img {
   }
   .footer__sitemap {
     padding: 15px auto;
+    max-width: 420px;
   }
   .footer__sitemap ul {
     display: none;
