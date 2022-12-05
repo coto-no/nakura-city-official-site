@@ -15,6 +15,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-image: url("https://github.com/coto-no/nakura-city-official-site/blob/main/background-img.jpg?raw=true");
+  overflow:hidden;
 }
 input, textarea, select {
   font-family: 'TsukuARdGothic-Bold', 'TsukuBRdGothic-Bold', YuGothic, 'Yu Gothic', sans-serif;
