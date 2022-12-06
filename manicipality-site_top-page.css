@@ -463,6 +463,9 @@ img {
     padding: 10px 25px;
     font-size: 1.4rem;
   }
+  .section-instagram__hushtag p br {
+    display: none;
+  }
   .section-instagram__post {
     display: inline-block;
   }
