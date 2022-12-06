@@ -89,14 +89,14 @@ input, textarea, select {
 }
 @media(max-width: 830px) {
   .top-wrapper {
-    padding: 30px 50px 50px 50px;
+    padding: 30px 50px 80px 50px;
     max-width: 830px;
   }
 }
 @media(max-width: 420px) {
   .top-wrapper {
     max-width: 420px;
-    padding: 20px 30px 30px 30px;
+    padding: 20px 30px 50px 30px;
   }
   .section-top__image {
     width: 100%;
@@ -123,14 +123,14 @@ input, textarea, select {
 }
 @media(max-width: 830px) {
   .section-purpose-content-wrapper {
-    padding: 0 50px 50px 50px;
+    padding: 0 50px 80px 50px;
     max-width: 830px;
   }
 }
 @media(max-width: 420px) {
   .section-purpose-content-wrapper {
     max-width: 420px;
-    padding: 0 30px 30px 30px;
+    padding: 0 30px 50px 30px;
   }
   .section-purpose-content-wrapper ul {
     gap: 10px;
@@ -192,10 +192,9 @@ img {
 }
 @media screen and (max-width: 540px) {
   .Box-SearchInput {
-    width: 100%;
-    height: 30px;
-    padding-right: 20px;
-    font-size: 10px;
+    height: 45px;
+    padding-right: 45px;
+    font-size: 1.4rem;
   }
 }
 .Box-Btn {
@@ -213,8 +212,8 @@ img {
 }
 @media screen and (max-width: 540px) {
   .Box-Btn {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     line-height: 30px;
   }
 }
@@ -265,7 +264,7 @@ img {
 @media(max-width: 830px) {
   .section-searchbox-content-wrapper {
     max-width: 830px;
-    padding: 0 50px 50px 50px;
+    padding: 0 50px 80px 50px;
   }
   .wrap {
     width: 80%;
@@ -275,7 +274,7 @@ img {
 @media(max-width: 420px) {
   .section-searchbox-content-wrapper {
     max-width: 420px;
-    padding: 0 30px 30px 30px;
+    padding: 0 30px 50px 30px;
   }
   .section-searchbox-content-wrapper h2 {
     font-size: 2.0rem;
@@ -287,14 +286,14 @@ img {
     padding: 15px;
   }
   .Box-Btn {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     line-height: 30px;
   }
  
   .Box-Btn-Icon {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
   }
   .wrap p {
     padding-top: 5px;
@@ -350,16 +349,16 @@ img {
 @media(max-width: 830px) {
   .section-news-content-wrapper {
     max-width: 830px;
-    padding: 0 50px 50px 50px;
+    padding: 0 50px 80px 50px;
   }
   .section-news-content-wrapper p {
-    padding: 50px 30px 30px 30px;
+    padding: 50px 30px 50px 30px;
   }
 }
 @media(max-width: 420px) {
   .section-news-content-wrapper {
     max-width: 420px;
-    padding: 0 30px 30px 30px;
+    padding: 0 30px 50px 30px;
   }
   .section-news-content-wrapper h2 {
     font-size: 2.0rem;
@@ -369,6 +368,7 @@ img {
   .section-news-content-wrapper p {
     padding: 30px 15px 15px 15px;
     font-size: 1.6rem;
+    margin-top: -20px;
   }
   .section-news-content-wrapper p span {
     padding: 3px;
@@ -438,7 +438,7 @@ img {
 @media(max-width: 830px) {
   .section-instagram-content-wrapper {
     max-width: 830px;
-    padding: 0 50px 50px 50px;
+    padding: 0 50px 80px 50px;
   }
   .section-instagram__post__item {
     width: 30%;
@@ -448,7 +448,7 @@ img {
 @media(max-width: 420px) {
   .section-instagram-content-wrapper {
     max-width: 420px;
-    padding: 0 30px 30px 30px;
+    padding: 0 30px 50px 30px;
   }
   .section-instagram__hushtag img {
     width: 30%;
