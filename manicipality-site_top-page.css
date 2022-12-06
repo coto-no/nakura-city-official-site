@@ -47,9 +47,9 @@ input, textarea, select {
   padding: 15px;
   background: #A73C40;
 }
-@media(max-width: 830px) {
+@media(max-width: 900px) {
   .header-content-wrapper {
-    max-width: 830px;
+    max-width: 900px;
     padding: 0 50px;
   }
 }
@@ -87,10 +87,10 @@ input, textarea, select {
   width: 100%;
   background-repeat: no-repeat;
 }
-@media(max-width: 830px) {
+@media(max-width: 900px) {
   .top-wrapper {
     padding: 30px 50px 80px 50px;
-    max-width: 830px;
+    max-width: 900px;
   }
 }
 @media(max-width: 420px) {
@@ -119,10 +119,10 @@ input, textarea, select {
 .section-purpose-content-wrapper li a img {
   width: 105%;
 }
-@media(max-width: 830px) {
+@media(max-width: 900px) {
   .section-purpose-content-wrapper {
     padding: 0 50px 80px 50px;
-    max-width: 830px;
+    max-width: 900px;
   }
 }
 @media(max-width: 420px) {
@@ -253,9 +253,9 @@ img {
     margin-top: -3px;
   }
 }
-@media(max-width: 830px) {
+@media(max-width: 900px) {
   .section-searchbox-content-wrapper {
-    max-width: 830px;
+    max-width: 900px;
     padding: 0 50px 80px 50px;
   }
   .wrap {
@@ -338,9 +338,9 @@ img {
   padding-left: 20px;
   color: #333;
 }
-@media(max-width: 830px) {
+@media(max-width: 900px) {
   .section-news-content-wrapper {
-    max-width: 830px;
+    max-width: 900px;
     padding: 0 50px 80px 50px;
   }
   .section-news-content-wrapper p {
@@ -427,9 +427,9 @@ img {
   color: #333;
   font-size: 1.4rem;
 }
-@media(max-width: 830px) {
+@media(max-width: 900px) {
   .section-instagram-content-wrapper {
-    max-width: 830px;
+    max-width: 900px;
     padding: 0 50px 80px 50px;
   }
   .section-instagram__post__item {
@@ -588,9 +588,9 @@ img {
   width: 35px;
   height: 35px;
 }
-@media(max-width: 830px) {
+@media(max-width: 900px) {
   .footer-content-wrapper {
-    max-width: 830px;
+    max-width: 900px;
   }
   .footer__return {
     padding: 0 50px 50px 50px;
