@@ -14,7 +14,7 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url("https://github.com/coto-no/nakura-city-official-site/blob/main/background-img.jpg?raw=true");
+  background-image: url("https://raw.githubusercontent.com/coto-no/nakura-city-official-site/ef9d2a2a57b9fc4a3b0928cdb9ec1883cab10815/background-img.jpg");
 }
 input, textarea, select {
   font-family: 'TsukuARdGothic-Bold', 'TsukuBRdGothic-Bold', YuGothic, 'Yu Gothic', sans-serif;
@@ -128,10 +128,13 @@ input, textarea, select {
 @media(max-width: 420px) {
   .section-purpose-content-wrapper {
     max-width: 420px;
-    padding: 0 30px 50px 30px;
+    padding: 0 20px 50px 20px;
   }
   .section-purpose-content-wrapper ul {
-    gap: 0 5px;
+    gap: 3px;
+  }
+  .section-purpose-content-wrapper li a img {
+    width: 105%;
   }
 }
 .section-searchbox-content-wrapper {
