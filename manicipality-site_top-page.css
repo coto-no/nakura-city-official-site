@@ -7,7 +7,7 @@ html {
 body {
   color: #333; /* RGB */
   font-family: 'TsukuARdGothic-Bold', 'TsukuBRdGothic-Bold', YuGothic, 'Yu Gothic', sans-serif;
-  font-weight: 550;
+  font-weight: 500;
   font-size: 1.6em;
   line-height: 3.0rem;
   text-align: center;
@@ -25,7 +25,7 @@ input, textarea, select {
   text-align: left;
   padding: 0 125px;
 }
-.header-content-wrapper.header__logo img {
+.header__logo img{
   width: 100%;
 }
 .header__warning-info {
@@ -53,12 +53,12 @@ input, textarea, select {
     padding: 0 50px;
   }
 }
-@media(max-width: 420px) {
+@media(max-width: 500px) {
   .header-content-wrapper {
-    max-width: 420px;
+    max-width: 500px;
     padding: 0 30px;
   }
-  .header-content-wrapper .header__logo img {
+ .header__logo img {
     width: 50%;
   }
   .header__warning-info {
@@ -93,9 +93,9 @@ input, textarea, select {
     max-width: 900px;
   }
 }
-@media(max-width: 420px) {
+@media(max-width: 500px) {
   .top-wrapper {
-    max-width: 420px;
+    max-width: 500px;
     padding: 20px 30px 50px 30px;
   }
   .section-top__image {
@@ -125,9 +125,9 @@ input, textarea, select {
     max-width: 900px;
   }
 }
-@media(max-width: 420px) {
+@media(max-width: 500px) {
   .section-purpose-content-wrapper {
-    max-width: 420px;
+    max-width: 500px;
     padding: 0 20px 50px 20px;
   }
   .section-purpose-content-wrapper ul {
@@ -263,9 +263,9 @@ img {
     padding: 50px;
   }
 }
-@media(max-width: 420px) {
+@media(max-width: 500px) {
   .section-searchbox-content-wrapper {
-    max-width: 420px;
+    max-width: 500px;
     padding: 0 30px 50px 30px;
   }
   .section-searchbox-content-wrapper h2 {
@@ -347,7 +347,7 @@ img {
     padding: 50px 30px 50px 30px;
   }
 }
-@media(max-width: 420px) {
+@media(max-width: 500px) {
   .section-news-content-wrapper {
     max-width: 420px;
     padding: 0 30px 50px 30px;
@@ -437,9 +437,9 @@ img {
     padding-bottom: 20px;
   }
 }
-@media(max-width: 420px) {
+@media(max-width: 500px) {
   .section-instagram-content-wrapper {
-    max-width: 420px;
+    max-width: 500px;
     padding: 0 30px 50px 30px;
   }
   .section-instagram__hushtag img {
@@ -612,9 +612,9 @@ img {
     margin: 0 50px 50px 50px;
   }
 }
-@media(max-width: 420px) {
+@media(max-width: 500px) {
   .footer-content-wrapper {
-    max-width: 420px;
+    max-width: 500px;
     padding-bottom: 70px;
   }
   .footer__return {
